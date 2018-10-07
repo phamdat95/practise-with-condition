@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var isThePointOfBeginCourse = parseInt(prompt("enter the point of begin course"));
+    var isThePointOfMiddleCourse = parseInt(prompt("enter the point of middle course"));
+    var isThePointOfEndCourse = parseInt(prompt("enter the point of end course"));
+    var average = (isThePointOfBeginCourse + isThePointOfMiddleCourse + isThePointOfEndCourse)/3;
+    if (average >= 8){
+        alert('you are achieved very good lever');
+    } else if (average >= 5.5){
+        alert('you are achieved good lever');
+    } else if (average >= 3) {
+        alert('you are achieved average lever');
+    } else alert('you are achieved weak lever');
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var numberOne = parseInt(prompt('enter number one:'));
+    var numberTwo = parseInt(prompt('enter number two:'));
+    var numberThree = parseInt(prompt('enter number three:'));
+    if (numberOne > numberTwo){
+        if (numberTwo > numberThree){
+            alert(numberOne + ' is the greatest');
+        }
+        else if (numberThree > numberOne){
+            alert(numberThree + ' is the greatest');
+        } else alert(numberOne + ' is the greatest');
+    }
+    else if (numberOne > numberThree){
+            alert(numberTwo + ' is the greatest');
+    }
+        else if (numberThree > numberTwo){
+            alert(numberThree + ' is the greatest');
+        }else alert(numberTwo + ' is the greatest');
+</script>
+</body>
+</html>

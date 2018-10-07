@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var isSales = parseInt(prompt("enter the sales"));
+    var isSalesHight = isSales*0.42;
+    var isSalesGood = isSales*0.40;
+    var isSalesAverage = isSales*0.38;
+    var isSalesWeak = isSales*0.35;
+    if (isSales >= 28000000){
+        alert('you are achieved: ' + isSalesHight);
+    } else if (isSales >= 15000000){
+        alert('you are achieved: ' + isSalesGood);
+    } else if (isSales >= 8000000) {
+        alert('you are achieved: ' + isSalesAverage);
+    } else alert('you are achieved: '+ isSalesWeak);
+</script>
+</body>
+</html>
